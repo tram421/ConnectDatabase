@@ -1,8 +1,7 @@
 <?php
-echo "tram";
-    $hostName = "http://maitram.net:2082/";
-    $useName = "maitramn";
-    $passWord = "421cuoi";
+    $hostName = "mysql06.dotvndns.vn";
+    $useName = "maitramn_apiapp";
+    $passWord = "muhnV#2;i#u&";
     $databaseName = "maitramn_appandroid";
 
     $con = new mysqli($hostName, $useName, $passWord, $databaseName);
@@ -12,3 +11,4 @@ echo "tram";
     } else {
         $con -> set_charset("utf8");
     }
+    
